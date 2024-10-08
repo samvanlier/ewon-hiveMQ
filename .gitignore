@@ -85,6 +85,7 @@ local.properties
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -157,7 +158,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # VS Code Global Gitignore from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
