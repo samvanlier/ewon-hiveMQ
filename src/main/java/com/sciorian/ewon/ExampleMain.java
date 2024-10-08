@@ -22,9 +22,9 @@ public class ExampleMain {
 
     // TODO connect to hiveMq
     HiveMQClient client = new HiveMQClient(
-        "username",
-        "password",
-        "url"
+        "hivemq.webclient.1727866192045",
+        "&SCKfkNb;5prD8?>z12O",
+        "4c4aca1744ed4d35bb0f1141772d9731.s1.eu.hivemq.cloud"
     );
 
     Thread.sleep(100);
@@ -32,7 +32,7 @@ public class ExampleMain {
     while (true) {
       client.send("hello/world", "test1");
 
-      Thread.sleep(1000);
+      Thread.sleep(1000); // sleep
     }
   }
 

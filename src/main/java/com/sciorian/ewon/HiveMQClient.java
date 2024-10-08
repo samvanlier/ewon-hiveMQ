@@ -6,8 +6,6 @@ import com.hivemq.client.mqtt.mqtt5.Mqtt5AsyncClient;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class HiveMQClient {
-
-
   private final String username;
   private final String clientId;
   private final String password;
@@ -69,5 +67,4 @@ public class HiveMQClient {
 
     return success.get();
   }
-
 }
