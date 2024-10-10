@@ -25,10 +25,10 @@ configured for use locally with Ant.
 	<property name="FlexyPassword" value="adm"/>
 	
 	<!-- The Flexy IP address -->
-	<property name="FlexyIP" value="10.0.0.53"/>
+	<property name="FlexyIP" value="192.168.1.53"/>
 	
 	<!-- Enable Debug mode -> Type 'true' if online debugging is used -->
-	<property name="Debug" value="false"/>	
+	<property name="Debug" value="true"/>
 	
 	<!-- ####################################################### -->
 	
@@ -47,7 +47,7 @@ configured for use locally with Ant.
     <property name="projectHome" location="." />
 		   
 	<target name="buildjar">
-		<jar destfile="${projectHome}/build/${ProjectName}.jar" basedir="${projectHome}/bin" />
+		<jar destfile="${projectHome}/build/${ProjectName}.jar" basedir="${projectHome}" />
     </target>  
 	
     <target name="deploy_ftp" depends="buildjar">
