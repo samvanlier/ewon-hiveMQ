@@ -20,20 +20,22 @@ public class ExampleMain {
     // Try to output application version from Maven
     System.out.println("App version: " + ExampleMain.class.getPackage().getImplementationVersion());
 
-    // TODO connect to hiveMq
-    HiveMQClient client = new HiveMQClient(
-        "hivemq.webclient.1727866192045",
-        "&SCKfkNb;5prD8?>z12O",
-        "4c4aca1744ed4d35bb0f1141772d9731.s1.eu.hivemq.cloud"
-    );
+    System.out.println("Hello world from my ewon :p");
 
-    Thread.sleep(100);
-
-    while (true) {
-      client.send("hello/world", "test1");
-
-      Thread.sleep(1000); // sleep
-    }
+    // // TODO connect to hiveMq
+    // HiveMQClient client = new HiveMQClient(
+    //     "hivemq.webclient.1727866192045",
+    //     "&SCKfkNb;5prD8?>z12O",
+    //     "4c4aca1744ed4d35bb0f1141772d9731.s1.eu.hivemq.cloud"
+    // );
+    //
+    // Thread.sleep(100);
+    //
+    // while (true) {
+    //   client.send("hello/world", "test1");
+    //
+    //   Thread.sleep(1000); // sleep
+    // }
   }
 
   /**
