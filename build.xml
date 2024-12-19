@@ -25,22 +25,13 @@ configured for use locally with Ant.
 	<property name="FlexyPassword" value="adm"/>
 	
 	<!-- The Flexy IP address -->
-	<property name="FlexyIP" value="192.168.1.53"/>
+	<property name="FlexyIP" value="10.0.0.53"/>
 	
 	<!-- Enable Debug mode -> Type 'true' if online debugging is used -->
-	<property name="Debug" value="true"/>
+	<property name="Debug" value="false"/>
 	
 	<!-- ####################################################### -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
     <property name="ftp.dir" value="/usr"/>
     <property name="src.dir" value="src"/>

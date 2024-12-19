@@ -1,5 +1,7 @@
 package com.sciorian.ewon;
 
+import com.hms_networks.americas.sc.extensions.mqtt.MqttManager;
+
 /**
  * Example main class for Solution Center Java Starter Project. This class includes a basic main
  * method with sample code to begin with.
@@ -13,7 +15,7 @@ public class ExampleMain {
    *
    * @param args project arguments
    */
-  public static void main(String[] args) throws InterruptedException {
+  public static void main(String[] args) {
     // Try to output application name from Maven
     System.out.println("App name: " + ExampleMain.class.getPackage().getImplementationTitle());
 
@@ -22,20 +24,7 @@ public class ExampleMain {
 
     System.out.println("Hello world from my ewon :p");
 
-    // // TODO connect to hiveMq
-    // HiveMQClient client = new HiveMQClient(
-    //     "hivemq.webclient.1727866192045",
-    //     "&SCKfkNb;5prD8?>z12O",
-    //     "4c4aca1744ed4d35bb0f1141772d9731.s1.eu.hivemq.cloud"
-    // );
-    //
-    // Thread.sleep(100);
-    //
-    // while (true) {
-    //   client.send("hello/world", "test1");
-    //
-    //   Thread.sleep(1000); // sleep
-    // }
+    // TODO add mqtt client code
   }
 
   /**
